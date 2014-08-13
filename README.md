@@ -10,12 +10,13 @@
 
 1. pip install scrapy
 2. pip install pybloom
-3.pip install pymongo
+3. pip install pymongo
 
 ##运行
 
-    进入tech163目录
-    执行scrapy crawl news 
+进入tech163目录
+执行scrapy crawl news 
 
 ##详细分析
-	参加[博文](http://youngfor.me/post/yong-scrapypa-wang-yi-xin-wen-jian-yi-jiao-cheng)
+
+参见[博文](http://youngfor.me/post/yong-scrapypa-wang-yi-xin-wen-jian-yi-jiao-cheng)
