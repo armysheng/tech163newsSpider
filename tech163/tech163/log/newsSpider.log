@@ -1,0 +1,49 @@
+2014-08-08 13:31:10+0800 [scrapy] INFO: Scrapy 0.24.2 started (bot: tech163)
+2014-08-08 13:31:10+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2014-08-08 13:31:10+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tech163.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['tech163.spiders'], 'BOT_NAME': 'tech163', 'DOWNLOAD_TIMEOUT': 15, 'LOG_STDOUT': True, 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64; rv:7.0.1) Gecko/20100101 Firefox/7.7', 'LOG_FILE': 'log/newsSpider.log'}
+2014-08-08 13:31:10+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-08-08 13:31:10+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, HttpProxyMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-08-08 13:31:10+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-08-08 13:31:10+0800 [-] ERROR: /usr/local/lib/python2.7/dist-packages/scrapy/contrib/pipeline/__init__.py:21: ScrapyDeprecationWarning: ITEM_PIPELINES defined as a list or a set is deprecated, switch to a dict
+2014-08-08 13:31:10+0800 [-] ERROR:   category=ScrapyDeprecationWarning, stacklevel=1)
+2014-08-08 13:31:10+0800 [scrapy] INFO: Enabled item pipelines: Tech163Pipeline
+2014-08-08 13:31:10+0800 [news] INFO: Spider opened
+2014-08-08 13:31:10+0800 [news] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-08-08 13:31:36+0800 [news] INFO: Closing spider (finished)
+2014-08-08 13:31:36+0800 [news] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 108054,
+	 'downloader/request_count': 315,
+	 'downloader/request_method_count/GET': 315,
+	 'downloader/response_bytes': 9784496,
+	 'downloader/response_count': 315,
+	 'downloader/response_status_count/200': 211,
+	 'downloader/response_status_count/404': 104,
+	 'dupefilter/filtered': 6816,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 8, 8, 5, 31, 36, 673609),
+	 'log_count/ERROR': 2,
+	 'log_count/INFO': 7,
+	 'offsite/domains': 8,
+	 'offsite/filtered': 3780,
+	 'request_depth_max': 7,
+	 'response_received_count': 315,
+	 'scheduler/dequeued': 315,
+	 'scheduler/dequeued/memory': 315,
+	 'scheduler/enqueued': 315,
+	 'scheduler/enqueued/memory': 315,
+	 'start_time': datetime.datetime(2014, 8, 8, 5, 31, 10, 577507)}
+2014-08-08 13:31:36+0800 [news] INFO: Spider closed (finished)
+2014-08-08 13:31:44+0800 [scrapy] INFO: Scrapy 0.24.2 started (bot: tech163)
+2014-08-08 13:31:44+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2014-08-08 13:31:44+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tech163.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['tech163.spiders'], 'BOT_NAME': 'tech163', 'DOWNLOAD_TIMEOUT': 15, 'LOG_STDOUT': True, 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64; rv:7.0.1) Gecko/20100101 Firefox/7.7', 'LOG_FILE': 'log/newsSpider.log'}
+2014-08-08 13:31:45+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-08-08 13:31:45+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, HttpProxyMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-08-08 13:31:45+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-08-08 13:31:45+0800 [-] ERROR: /usr/local/lib/python2.7/dist-packages/scrapy/contrib/pipeline/__init__.py:21: ScrapyDeprecationWarning: ITEM_PIPELINES defined as a list or a set is deprecated, switch to a dict
+2014-08-08 13:31:45+0800 [-] ERROR:   category=ScrapyDeprecationWarning, stacklevel=1)
+2014-08-08 13:31:46+0800 [scrapy] INFO: Enabled item pipelines: Tech163Pipeline
+2014-08-08 13:31:46+0800 [news] INFO: Spider opened
+2014-08-08 13:31:46+0800 [news] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-08-08 13:31:55+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2014-08-08 13:31:57+0800 [news] INFO: Closing spider (shutdown)
+2014-08-08 13:32:01+0800 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
