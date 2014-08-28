@@ -19,4 +19,4 @@
 
 ##详细分析
 
-参见[博文](http://youngfor.me/post/yong-scrapypa-wang-yi-xin-wen-jian-yi-jiao-cheng)
+参见[博文](http://youngfor.me/post/spider/yong-scrapypa-wang-yi-xin-wen-jian-yi-jiao-cheng)
